@@ -6,7 +6,7 @@
         "test": "karma start karma.conf.js"
     },
     "devDependencies": {
-        "angular": "~1.6.0",
+        "angular": "^1.7.9",
         "angular-animate": "~1.5.8",
         "angular-mocks": "~1.6.0",
         "angular-route": "~1.5.8",
@@ -20,7 +20,7 @@
         "grunt-contrib-jshint": "^1.1.0",
         "grunt-contrib-uglify": "^2.0.0",
         "grunt-contrib-watch": "^1.0.0",
-        "grunt-htmllint": "^0.2.7",
+        "grunt-htmllint": "^0.3.0",
         "grunt-karma": "^2.0.0",
         "grunt-strip-code": "^1.0.4",
         "jasmine-core": "^2.5.2",

@@ -21,12 +21,16 @@ function MenuController($rootScope, $scope, $location,
                 $location.path("listarPessoas");
                 break;
 
+            case 'CadastrarPerfis':
+                $location.path("cadastrarPerfil");
+                break;
+
             case 'EditarPerfis':
-                $location.path("EditarPerfis");
+                $location.path("editarPerfil");
                 break;
                 
-            case 'listarPerfis':
-                $location.path("listarPerfis");
+            case 'listarPerfil':
+                $location.path("listarPerfil");
                 break;
 
             case 'home':
